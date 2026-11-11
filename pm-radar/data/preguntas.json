@@ -1,0 +1,450 @@
+{
+  "version": "0.2.0",
+  "titulo": "Autoevaluación de Product Manager",
+  "ejes": [
+    {
+      "id": "e1",
+      "nombre": "Discovery y cliente",
+      "corto": "Discovery",
+      "descripcion": "Entender a los usuarios de primera mano y validar ideas antes de construir."
+    },
+    {
+      "id": "e2",
+      "nombre": "Ejecución y entrega",
+      "corto": "Ejecución",
+      "descripcion": "Convertir decisiones en entregas frecuentes, claras y de calidad, y mejorarlas después de lanzar."
+    },
+    {
+      "id": "e3",
+      "nombre": "Estrategia y negocio",
+      "corto": "Estrategia",
+      "descripcion": "Conectar lo que construyes con resultados de negocio y decidir qué no hacer."
+    },
+    {
+      "id": "e4",
+      "nombre": "Influencia y stakeholders",
+      "corto": "Influencia",
+      "descripcion": "Alinear, informar e implicar a personas sobre las que no tienes autoridad."
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "1.1",
+      "eje": "e1",
+      "na": false,
+      "texto": "En el último mes, ¿cuántas conversaciones directas tuviste con usuarios, sin intermediarios?",
+      "opciones": [
+        "Ninguna",
+        "1",
+        "2-3",
+        "4 o más"
+      ],
+      "porQue": "Lo que te cuentan ventas o soporte llega filtrado. Hablar tú con usuarios es la forma más barata de saber qué problema merece la pena resolver.",
+      "siguientePaso": [
+        "Agenda esta semana una llamada de 20 minutos con un usuario real. Pide 3 contactos a soporte o ventas y escríbeles tú.",
+        "Reserva un hueco fijo en el calendario, por ejemplo una conversación cada viernes, para que no dependa de tener tiempo.",
+        "Pasa a una cadencia semanal y deja que alguien de diseño o ingeniería te acompañe."
+      ],
+      "beneficio": "Decides con información de primera mano y defiendes tus prioridades con lo que has oído, no con opiniones."
+    },
+    {
+      "id": "1.2",
+      "eje": "e1",
+      "na": false,
+      "texto": "En el último trimestre, ¿alguna conversación o prueba con usuarios cambió una decisión de producto?",
+      "opciones": [
+        "No hablé con usuarios",
+        "Hablé, pero no cambió nada",
+        "Sí, un detalle (texto, diseño, orden)",
+        "Sí, cambió qué se construía o se descartó una idea"
+      ],
+      "porQue": "Hablar con usuarios solo sirve si cambia algo. Si nunca cambia nada, o preguntas lo que ya sabes o solo buscas confirmar tu idea.",
+      "siguientePaso": [
+        "Empieza por tener conversaciones con usuarios. Antes de cada una, escribe qué decisión tienes abierta.",
+        "Antes de cada conversación, apunta una hipótesis que podría resultar falsa. Pregunta por hechos pasados (\"cuéntame la última vez que…\") en lugar de opiniones.",
+        "Lleva lo que aprendes a decisiones de más calado: qué problema atacar, no solo cómo mostrarlo."
+      ],
+      "beneficio": "Evitas construir cosas que nadie usa y ahorras semanas de desarrollo."
+    },
+    {
+      "id": "1.3",
+      "eje": "e1",
+      "na": false,
+      "texto": "En tu última iniciativa grande, ¿qué validaste antes de que ingeniería empezara a construir?",
+      "opciones": [
+        "Nada, ya venía decidida",
+        "Solo si era factible, con ingeniería",
+        "Valor o usabilidad, con usuarios",
+        "Valor, usabilidad, factibilidad y viabilidad de negocio"
+      ],
+      "porQue": "Una idea puede fallar porque no aporta valor, porque no se entiende, porque no se puede construir o porque no encaja con el negocio. Si solo compruebas uno de esos riesgos, los otros te sorprenden cuando ya está hecho.",
+      "siguientePaso": [
+        "En tu próxima iniciativa, antes de pasarla a ingeniería, escribe en una línea cómo podría fallar en cada uno de los 4 riesgos.",
+        "Añade una prueba con usuarios antes de construir: enséñales una maqueta y comprueba si la entienden y si la quieren.",
+        "Suma el riesgo de negocio: revisa con ventas, legal o finanzas si se puede vender, cobrar y operar."
+      ],
+      "beneficio": "Llegas a ingeniería con menos sorpresas y más confianza en que lo que se construye va a funcionar."
+    },
+    {
+      "id": "1.4",
+      "eje": "e1",
+      "na": false,
+      "texto": "En los últimos 6 meses, ¿qué usaste para probar ideas antes del código definitivo?",
+      "opciones": [
+        "Nada, se prueba con el código",
+        "Prototipos hechos por diseño",
+        "Al menos un prototipo o experimento propio (fake door, concierge, maqueta…)",
+        "Varios tipos, elegidos según el riesgo a probar"
+      ],
+      "porQue": "Escribir código es la forma más cara de probar una idea. Un prototipo sencillo da la misma respuesta en días, no en semanas.",
+      "siguientePaso": [
+        "Elige la próxima idea dudosa y pruébala con una maqueta (papel, Figma o una presentación) antes de pedir desarrollo.",
+        "Prepara tú una prueba sin depender de diseño: una fake door (un botón que mide interés) o un concierge (hacerlo a mano para unos pocos usuarios).",
+        "Antes de prototipar, decide qué riesgo quieres probar y elige la técnica que mejor lo responde."
+      ],
+      "beneficio": "Aprendes más rápido, gastas menos tiempo de ingeniería y llegas con evidencia a las discusiones de prioridad."
+    },
+    {
+      "id": "1.5",
+      "eje": "e1",
+      "na": false,
+      "texto": "La última vez que un stakeholder te pidió una funcionalidad concreta, ¿qué pasó?",
+      "opciones": [
+        "Entró al backlog tal cual",
+        "Pregunté el porqué, pero se hizo tal cual",
+        "Reformulé el problema antes de decidir",
+        "Reformulé el problema y comparamos al menos 2 soluciones"
+      ],
+      "porQue": "Quien pide una funcionalidad suele tener un problema real, pero no siempre la mejor solución. Si la aceptas tal cual, pierdes la oportunidad de resolverlo mejor o más barato.",
+      "siguientePaso": [
+        "La próxima vez que te pidan algo, pregunta \"¿qué problema resuelve y qué pasa si no lo hacemos?\" antes de meterlo en el backlog.",
+        "Reescribe la petición como un problema (\"los comerciales tardan X en…\") y compártela así con el equipo antes de decidir.",
+        "Para ese problema, propón al menos 2 soluciones alternativas y compáralas con el equipo y con quien lo pidió."
+      ],
+      "beneficio": "Pasas de tomar pedidos a decidir qué se construye, y los stakeholders empiezan a verte como socio, no como intermediario."
+    },
+    {
+      "id": "1.6",
+      "eje": "e1",
+      "na": false,
+      "texto": "En el último trimestre, ¿cuántas decisiones apoyaste con un análisis de datos hecho por ti (SQL, Amplitude, hoja de cálculo…)?",
+      "opciones": [
+        "Ninguna",
+        "Solo miré dashboards ya hechos",
+        "1-2",
+        "3 o más"
+      ],
+      "porQue": "Los dashboards responden preguntas que alguien ya se hizo. Para tus decisiones necesitas responder tus propias preguntas.",
+      "siguientePaso": [
+        "Elige una decisión abierta y busca un dato que la apoye o la contradiga, aunque sea en una hoja de cálculo.",
+        "Aprende a sacar tú un dato que hoy pides a otros: un filtro en tu herramienta de analítica o una consulta SQL sencilla.",
+        "Conviértelo en costumbre: acompaña cada decisión importante con un análisis propio."
+      ],
+      "beneficio": "Ganas autonomía y credibilidad: tus propuestas llegan con datos y no dependes de que otros tengan tiempo."
+    },
+    {
+      "id": "2.1",
+      "eje": "e2",
+      "na": false,
+      "texto": "De tus 3 últimas especificaciones, ¿cuántas tenían criterios de aceptación y casos límite por escrito?",
+      "opciones": [
+        "Ninguna",
+        "1",
+        "2",
+        "Las 3"
+      ],
+      "porQue": "Las dudas que no resuelves al escribir la especificación aparecen a mitad de sprint, cuando cuestan más.",
+      "siguientePaso": [
+        "En tu próxima especificación, añade una sección de criterios de aceptación: cómo sabremos que está terminado.",
+        "Usa una plantilla corta y fija, con criterios de aceptación y casos límite, en todas tus especificaciones.",
+        "Repasa los casos límite con ingeniería antes de cerrar la especificación: suelen ver los que tú no ves."
+      ],
+      "beneficio": "Menos retrabajo, menos interrupciones durante el sprint y más tiempo para el discovery."
+    },
+    {
+      "id": "2.2",
+      "eje": "e2",
+      "na": false,
+      "texto": "En el último trimestre, ¿cada cuánto salió a producción algo de tu equipo que viera un usuario?",
+      "opciones": [
+        "No salió nada",
+        "Una vez",
+        "Cada mes, más o menos",
+        "Cada 1-2 semanas"
+      ],
+      "porQue": "Entregar poco y a menudo te da información real antes y reduce el riesgo de cada lanzamiento.",
+      "siguientePaso": [
+        "Busca la parte más pequeña de tu iniciativa actual que ya aporte algo a un usuario y prioriza sacarla.",
+        "Con el equipo, parte la próxima iniciativa en entregas de 2-4 semanas como máximo, cada una con valor propio.",
+        "Revisa qué frena el ritmo (aprobaciones, pruebas manuales, dependencias) y ataca el mayor cuello de botella."
+      ],
+      "beneficio": "Aprendes antes, tus stakeholders ven avances y el equipo gana ritmo y moral."
+    },
+    {
+      "id": "2.3",
+      "eje": "e2",
+      "na": false,
+      "texto": "En tu equipo, ¿hay capacidad reservada para bugs y deuda técnica?",
+      "opciones": [
+        "No, solo cuando algo revienta",
+        "No fija, se negocia caso a caso",
+        "Sí, pero se salta a menudo",
+        "Sí, fija y se respeta"
+      ],
+      "porQue": "Si no hay tiempo reservado para la calidad, la deuda técnica crece hasta frenar todo lo demás.",
+      "siguientePaso": [
+        "Pregunta a ingeniería cuáles son los 3 problemas técnicos que más les frenan y mete uno en el próximo sprint.",
+        "Acuerda con el equipo un porcentaje fijo de capacidad para bugs y deuda técnica, por ejemplo un 15-20%.",
+        "Protege ese porcentaje: trátalo como un compromiso más del sprint y explica a los stakeholders por qué existe."
+      ],
+      "beneficio": "Un producto más estable, un equipo que confía en ti y entregas más predecibles."
+    },
+    {
+      "id": "2.4",
+      "eje": "e2",
+      "na": false,
+      "texto": "Con lo último que lanzaste, ¿qué hiciste después?",
+      "opciones": [
+        "Pasé a lo siguiente",
+        "Miré las métricas una vez",
+        "Las comparé con un objetivo fijado antes",
+        "Las comparé con el objetivo e iteré al menos una vez para mejorarlo"
+      ],
+      "porQue": "Lanzar no es terminar. Si no compruebas el resultado, no sabes si has resuelto el problema.",
+      "siguientePaso": [
+        "Para lo último que lanzaste, mira hoy una métrica que indique si se usa y apúntala.",
+        "Antes del próximo lanzamiento, escribe qué métrica debería moverse y cuánto. Revísala a las 2-4 semanas.",
+        "Reserva capacidad después de cada lanzamiento para al menos una iteración de mejora basada en los datos."
+      ],
+      "beneficio": "Demuestras impacto, no solo entregas, y aprendes qué funciona para tus próximas decisiones."
+    },
+    {
+      "id": "2.5",
+      "eje": "e2",
+      "na": false,
+      "texto": "¿El orden de tu backlog para los próximos sprints sigue un criterio escrito que el equipo puede ver?",
+      "opciones": [
+        "No hay orden claro",
+        "Lo ordeno yo por intuición",
+        "Hay criterio, pero no está escrito",
+        "Sí, escrito, visible y ligado a los objetivos del trimestre"
+      ],
+      "porQue": "Si el orden del backlog depende de tu intuición, cada prioridad se discute desde cero y el equipo no entiende por qué hace lo que hace.",
+      "siguientePaso": [
+        "Ordena los 10 primeros elementos del backlog y escribe al lado de cada uno por qué va ahí.",
+        "Elige un criterio sencillo (impacto en el objetivo del trimestre frente a esfuerzo) y aplícalo a todo el backlog.",
+        "Escribe ese criterio donde el equipo y los stakeholders lo vean y enlázalo con los objetivos del trimestre."
+      ],
+      "beneficio": "Menos discusiones de prioridad, decisiones más rápidas y un equipo que entiende el porqué de su trabajo."
+    },
+    {
+      "id": "2.6",
+      "eje": "e2",
+      "na": false,
+      "texto": "En el último trimestre, ¿cuántas veces hiciste una demo en vivo del producto o resolviste una consulta de soporte sin pedir ayuda a ingeniería?",
+      "opciones": [
+        "Ninguna",
+        "1 vez",
+        "2-3 veces",
+        "4 o más"
+      ],
+      "porQue": "Si no conoces tu producto a fondo, dependes de otros para entender a clientes, soporte y casos raros, y tus decisiones pierden fuerza.",
+      "siguientePaso": [
+        "Usa tu producto como un cliente durante una semana y apunta todo lo que te sorprenda o te cueste.",
+        "Pide a soporte que te pase 2-3 consultas complejas al mes y resuélvelas tú.",
+        "Ofrécete a hacer demos a clientes o formaciones internas: obligan a conocer cada detalle."
+      ],
+      "beneficio": "Ganas autoridad ante clientes, ventas e ingeniería, y detectas problemas antes que nadie."
+    },
+    {
+      "id": "3.1",
+      "eje": "e3",
+      "na": false,
+      "texto": "Tu última iniciativa, ¿tenía una métrica de negocio objetivo definida antes de construir?",
+      "opciones": [
+        "No, el éxito era entregar a tiempo",
+        "Había métrica, pero sin cifra objetivo",
+        "Métrica con cifra objetivo",
+        "Métrica con cifra objetivo, y sé cuánto se movió"
+      ],
+      "porQue": "Si el éxito es entregar a tiempo, nadie sabe si lo entregado sirvió. Una métrica de negocio conecta tu trabajo con lo que le importa a la empresa.",
+      "siguientePaso": [
+        "Para tu iniciativa actual, escribe qué métrica de negocio debería mejorar (ingresos, retención, costes…).",
+        "Ponle cifra: \"pasar de X a Y en Z semanas\", y acuérdala con tu manager.",
+        "Mide el resultado después del lanzamiento y compártelo, salga bien o mal."
+      ],
+      "beneficio": "Puedes demostrar tu impacto con números, algo clave para crecer o cambiar de trabajo."
+    },
+    {
+      "id": "3.2",
+      "eje": "e3",
+      "na": false,
+      "texto": "¿Cómo está escrito tu roadmap actual?",
+      "opciones": [
+        "No hay, o es una lista de funcionalidades con fechas impuestas",
+        "Funcionalidades con fechas que propuse yo",
+        "Temas o problemas por trimestre",
+        "Problemas o resultados a 6-12 meses con hipótesis explícitas"
+      ],
+      "porQue": "Un roadmap de funcionalidades con fechas te ata a soluciones antes de saber si funcionan. Uno basado en problemas te deja margen para encontrar la mejor.",
+      "siguientePaso": [
+        "Escribe en una página los 3-5 problemas más importantes que tu producto debería resolver este año.",
+        "Agrupa las funcionalidades de tu roadmap por el problema que resuelven y preséntalo así la próxima vez.",
+        "Añade a cada problema su hipótesis y el resultado esperado, con un horizonte de 6-12 meses."
+      ],
+      "beneficio": "Puedes cambiar de solución sin perder credibilidad y tienes conversaciones de estrategia en vez de negociar fechas."
+    },
+    {
+      "id": "3.3",
+      "eje": "e3",
+      "na": false,
+      "texto": "En el último trimestre, ¿cuántas peticiones rechazaste o aplazaste explicando el porqué, y se mantuvo la decisión?",
+      "opciones": [
+        "Ninguna, se acepta casi todo",
+        "Rechacé alguna, pero entró por presión",
+        "1 que se mantuvo",
+        "2 o más que se mantuvieron"
+      ],
+      "porQue": "Cada sí a algo que no encaja es tiempo que no dedicas a lo importante. Saber decir no es lo que protege el foco.",
+      "siguientePaso": [
+        "Revisa tu backlog, elige una petición que no encaje con el objetivo del trimestre y explica a quien la pidió por qué se aplaza.",
+        "Prepara tus noes con argumentos: el objetivo del trimestre y lo que dejaríais de hacer si dices que sí.",
+        "Haz visible lo que no se hace y por qué (una lista de \"ahora no\") para que las decisiones se mantengan."
+      ],
+      "beneficio": "Tu equipo trabaja en lo que más impacto tiene y tú ganas reputación de tener criterio."
+    },
+    {
+      "id": "3.4",
+      "eje": "e3",
+      "na": true,
+      "texto": "En tu última iniciativa, ¿cuándo hablaste con ventas, marketing, legal o finanzas?",
+      "opciones": [
+        "No hablé con ellos",
+        "Cuando bloquearon el lanzamiento",
+        "Antes del lanzamiento",
+        "Desde el discovery"
+      ],
+      "porQue": "Un producto que no se puede vender, cobrar u operar dentro de la normativa no llega al mercado, por bueno que sea.",
+      "siguientePaso": [
+        "En tu próxima iniciativa, ten una reunión corta con ventas o marketing para entender cómo se venderá.",
+        "No esperes al bloqueo: comparte el plan con legal, finanzas o ventas antes del lanzamiento.",
+        "Inclúyelos desde el discovery, para que sus restricciones den forma a la solución desde el principio."
+      ],
+      "beneficio": "Lanzamientos sin sorpresas de última hora y mejor relación con el resto de la empresa."
+    },
+    {
+      "id": "3.5",
+      "eje": "e3",
+      "na": false,
+      "texto": "En el último trimestre, ¿analizaste a la competencia por escrito?",
+      "opciones": [
+        "No",
+        "Vi cosas sueltas, sin apuntarlas",
+        "Sí, un análisis escrito",
+        "Sí, y cambió alguna prioridad"
+      ],
+      "porQue": "Sin mirar el mercado, corres el riesgo de construir lo que ya existe o de no ver una amenaza a tiempo.",
+      "siguientePaso": [
+        "Prueba durante una hora el producto de tu principal competidor y apunta 3 cosas que hace mejor y 3 que hace peor.",
+        "Pasa lo que ya ves a un documento corto y compártelo con el equipo.",
+        "Actualiza ese análisis cada trimestre y úsalo en las decisiones de prioridad."
+      ],
+      "beneficio": "Decides con contexto de mercado y puedes explicar por qué tu producto es diferente."
+    },
+    {
+      "id": "4.1",
+      "eje": "e4",
+      "na": true,
+      "texto": "La última vez que dos áreas pidieron cosas contradictorias, ¿qué pasó?",
+      "opciones": [
+        "Escaló sin que yo interviniera",
+        "Lo decidió mi manager",
+        "Lo resolví yo, con una parte descontenta",
+        "Lo resolví yo, con acuerdo explícito de ambas"
+      ],
+      "porQue": "Cuando dos áreas chocan, el PM es quien mejor puede encontrar una salida que sirva al producto. Si el conflicto escala sin ti, otros deciden por ti.",
+      "siguientePaso": [
+        "La próxima vez que veas un conflicto, reúne a ambas partes y empieza por entender qué necesita cada una.",
+        "Antes de escalar a tu manager, propón tú una solución con los pros y contras de cada opción.",
+        "Busca un acuerdo que ambas partes acepten de forma explícita, aunque no sea su opción ideal, y déjalo por escrito."
+      ],
+      "beneficio": "Te conviertes en la persona que desbloquea situaciones, una señal clara de seniority."
+    },
+    {
+      "id": "4.2",
+      "eje": "e4",
+      "na": false,
+      "texto": "En el último trimestre, ¿participaron ingeniería o diseño en hablar con usuarios o en definir el problema?",
+      "opciones": [
+        "Nunca, reciben especificaciones cerradas",
+        "Solo en el kickoff",
+        "Alguna vez",
+        "De forma habitual"
+      ],
+      "porQue": "Ingenieros y diseñadores que entienden el problema proponen mejores soluciones y se implican más que quienes solo reciben especificaciones.",
+      "siguientePaso": [
+        "Invita a un ingeniero o diseñador a tu próxima conversación con usuarios.",
+        "Comparte el problema y los datos con el equipo antes de tener la solución cerrada, y pídeles ideas.",
+        "Conviértelo en costumbre: que alguien del equipo participe en el discovery de cada iniciativa."
+      ],
+      "beneficio": "Mejores soluciones, menos fricción en la entrega y un equipo más motivado."
+    },
+    {
+      "id": "4.3",
+      "eje": "e4",
+      "na": false,
+      "texto": "Tu último retraso o problema serio, ¿cómo se enteró tu dirección?",
+      "opciones": [
+        "Cuando ya había estallado",
+        "Se lo conté cuando me preguntó",
+        "Se lo conté yo, antes de que preguntara",
+        "Se lo conté antes, con alternativas y riesgos"
+      ],
+      "porQue": "Las malas noticias que llegan tarde destruyen la confianza. Las que llegan pronto y con opciones la refuerzan.",
+      "siguientePaso": [
+        "En cuanto detectes un riesgo, cuéntaselo a tu dirección aunque todavía no tengas la solución.",
+        "Adelántate: comunica los riesgos antes de que te pregunten, por ejemplo en una actualización semanal.",
+        "Acompaña cada problema con 2-3 alternativas y lo que supone cada una."
+      ],
+      "beneficio": "Tu dirección confía en ti, te da más autonomía y te apoya cuando hay problemas."
+    },
+    {
+      "id": "4.4",
+      "eje": "e4",
+      "na": false,
+      "texto": "En el último trimestre, ¿contaste avances fuera de tu equipo (demo, all-hands, newsletter interna)?",
+      "opciones": [
+        "No",
+        "Solo el estado, a los stakeholders directos",
+        "Una vez, a una audiencia amplia",
+        "2 o más veces, conectando con el problema del cliente"
+      ],
+      "porQue": "Si nadie fuera del equipo sabe qué hacéis y por qué, cuesta conseguir apoyo, recursos y reconocimiento.",
+      "siguientePaso": [
+        "Después de tu próximo lanzamiento, envía un mensaje corto al resto de la empresa: qué problema resuelve y para quién.",
+        "Busca una audiencia más amplia: una demo en el all-hands o una sección en la newsletter interna.",
+        "Cuenta cada avance desde el problema del cliente, no desde la funcionalidad, y hazlo de forma regular."
+      ],
+      "beneficio": "Más visibilidad para ti y tu equipo, y más facilidad para conseguir apoyo en tus próximas iniciativas."
+    },
+    {
+      "id": "4.5",
+      "eje": "e4",
+      "na": true,
+      "texto": "En el último trimestre, ¿conseguiste que un equipo que no depende de ti hiciera trabajo para tu iniciativa?",
+      "opciones": [
+        "No lo conseguí",
+        "Tuvo que intervenir un manager",
+        "Sí, una vez",
+        "Sí, varias veces"
+      ],
+      "porQue": "Casi nada importante se consigue solo con tu equipo. Saber implicar a otros equipos multiplica lo que puedes lograr.",
+      "siguientePaso": [
+        "Identifica un equipo del que dependes y entiende qué objetivos tiene antes de pedirle nada.",
+        "En vez de pedir a un manager que intervenga, plantea tu petición enlazada con los objetivos del otro equipo.",
+        "Cuida esa relación de forma continua: comparte avances, ayuda cuando te lo pidan y reconoce su aportación."
+      ],
+      "beneficio": "Puedes sacar adelante iniciativas más grandes, una de las claves para crecer como PM."
+    }
+  ]
+}
